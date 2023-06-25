@@ -7,6 +7,7 @@ On Jun, 21st. [Red Hat announced restricting RHEL packages sources to its paying
 
 ## Articles
 [Red Hat Now Limiting RHEL Sources To CentOS Stream](https://www.phoronix.com/news/Red-Hat-CentOS-Stream-Sources)
+
 [Red Hat strikes a crushing blow against RHEL downstreams](https://www.theregister.com/2023/06/23/red_hat_centos_move/)
 
 ## Red Hat Alternatives
