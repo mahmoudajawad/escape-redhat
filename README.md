@@ -10,7 +10,7 @@ On Jun, 21st. [Red Hat announced restricting RHEL packages sources to its paying
 
 [Red Hat strikes a crushing blow against RHEL downstreams](https://www.theregister.com/2023/06/23/red_hat_centos_move/)
 
-## Red Hat Alternatives
+## Red Hat Products Alternatives
 While the announcement is related to users who are interested in community-supported RHEL clones such as [AlmaLinux](https://almalinux.org/) and [Rocky Linux](https://rockylinux.org/), it might be a chance for users to re-consider every offering from Red Hat and understand what alternatives have.
 
 ### RHEL
