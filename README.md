@@ -49,3 +49,9 @@ However, it should be clear that moving to openSUSE and SLES isn't like switchin
 Your input is needed to create a complete reference to escaping Red Hat altogether for those who would like so. Such as more RHEL options, and cloud products and services that depend on Red Hat ecosystem (e.g. OpenShift).
 
 Send in your input, feedback, or opinion via an issue or Merge/Pull Request to this repo.
+
+
+## Mirrors
+This document is mirrored on:
+- GitLab: [https://gitlab.com/mahmoudajawad/escape-redhat](https://gitlab.com/mahmoudajawad/escape-redhat)
+- GitHub: [https://github.com/mahmoudajawad/escape-redhat](https://github.com/mahmoudajawad/escape-redhat)
