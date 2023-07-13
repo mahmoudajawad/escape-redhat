@@ -1,14 +1,22 @@
 # Escape Red Hat
 
-[Red Hat is going closed source (Warning: YouTube link)](https://www.youtube.com/watch?v=Of18sAJgHxE) and those who choose to work with Red Hat because of its open nature, could need to re-evaluate their options.
+> Red Hat employees are mad at me on Reddit because I wrote "going closed source". While technically they are not, there's nothing about all the recent moves by Red Hat that goes well with the spirit of free software.
+
+[Red Hat is paywalling access to RHEL source code (Warning: YouTube link)](https://www.youtube.com/watch?v=Of18sAJgHxE) and those who choose to work with Red Hat because of its open nature, could need to re-evaluate their options.
 
 On Jun, 21st. [Red Hat announced restricting RHEL packages sources to its paying customers only](https://www.redhat.com/en/blog/furthering-evolution-centos-stream), furthermore Red Hat affirmed its ToS to prohibit its customers from [re-sharing these sources with third-parties](https://twitter.com/GloriousEggroll/status/1672030372979412992) effectively preventing anyone from creating a binary-compatible RHEL clone.
 
 
-## Articles
+## Resources
 [Red Hat Now Limiting RHEL Sources To CentOS Stream](https://www.phoronix.com/news/Red-Hat-CentOS-Stream-Sources)
 
 [Red Hat strikes a crushing blow against RHEL downstreams](https://www.theregister.com/2023/06/23/red_hat_centos_move/)
+
+[Red Hat Responds To The RHEL Source Code Drama (Warning: YouTube link)](https://www.youtube.com/watch?v=p6wP-6-2XwA)
+
+[Why Corporate Owned Linux Distributions are a Bad Idea (Warning: YouTube link)](https://www.youtube.com/watch?v=fqfyM7zE6KM)
+
+[Red Hat: why I'm going all in on community-driven Linux distros (Warning: YouTube link)](https://www.youtube.com/watch?v=vUXYbt1eLTA)
 
 ## Red Hat Products Alternatives
 While the announcement is related to users who are interested in community-supported RHEL clones such as [AlmaLinux](https://almalinux.org/) and [Rocky Linux](https://rockylinux.org/), it might be a chance for users to re-consider every offering from Red Hat and understand what alternatives have.
@@ -44,6 +52,32 @@ Moving to openSUSE and SLES, is best if:
 
 However, it should be clear that moving to openSUSE and SLES isn't like switching between a RHEL clone and another, as it isn't binary-compatible with RHEL, however migrating to it should be easier than migrating to a non-`RPM` distro.
 
+### Fedora
+Fedora is the testing playground for Red Hat. Red Hat doesn't like this title, though, and keep tooting "Red Hat supported community". Now, [Red Hat wants to add telemetry to Fedora](https://discussion.fedoraproject.org/t/f40-change-request-privacy-preserving-telemetry-for-fedora-workstation-system-wide/85320/118). While this is presented as a topic to discuss it follows suit; Red Hat wants to squeeze any commercial opportunity from the community that made Red Hat. Users of Fedora need to find the alternative.
+
+#### Fedora alternative: NixOS
+If you are a developer, NixOS will probably be the distro you've always been looking for. It has been best [explained by Chris Titus in this video (Warning: Youtube link)](https://www.youtube.com/watch?v=fuWPuJZ9NcU), so, switch from Fedora to NixOS if:
+- You are a developer who wants to drive your GNU/Linux installation by configuration, just like you do with your code.
+- You are leading a development team, that needs to be able to launch re-producible environments the way VMs are.
+- You are a GNU/Linux advanced user who wants an operating system that is built around an easy to use packages format (Nix) to build his own.
+
+However, consider peeking at what NixOS and Nix are before making that jump as the experience is not the same, and a sudden switch might leave you with certain software that don't work the way they did on regular distros, and the live USB media is a great opportunity to test it all.
+
+#### Fedora alternative: Debian
+Before this documents becomes a celebration for Debian, it is needed to be stated that if your use of Fedora is because of how stable it is, then the stability of Debian is the only thing that is comparable. However, Debian doesn't cover it all, so moving to Debian on workstation from Fedora is best if:
+- You are after stability on the workstation.
+- You like to have access to large catalogue of programs and applications.
+- You want to streamline your experience across personal workstation and business servers and computers.
+
+However, Debian doesn't offer latest software by default as it eyes stability, and while Flathub covers this spot, not all programs and applications are best experienced via Flatpak.
+
+#### Fedora alternative: Arch Linux
+Arch is a rolling-release GNU/Linux distro, what this means is Arch doesn't have versions, but rather snapshots of some recent build that can be installed and be updated for ever with every new release of a package. This is great by principle because it omits the necessity to follow an upgrade-pipe every few months like with most of GNU/Linux distros. This approach also guarantees having most of packages be up-to-date as there are no restrictions about software versions whatsoever (HUGE ASTERISK HERE). So, switch to Arch if:
+- You want to move around telling everyone "I use Arch, BTW!".
+- You want cutting-edge experience with programs and applications.
+- You understand what rolling-release gives you in both of powers and responsibilities towards keeping your installation working.
+
+However, if you are not ready for a rolling-release model, as it exposes compatibility issues with time, you need to avoid switching to Arch, but it might still be a great experience as a VM or a side distro.
 
 ## Your Input
 Your input is needed to create a complete reference to escaping Red Hat altogether for those who would like so. Such as more RHEL options, and cloud products and services that depend on Red Hat ecosystem (e.g. OpenShift).
